@@ -1,0 +1,11 @@
+Faça um script que monte um menu, como
+mostra abaixo
+– Script de Administracao
+•
+1 – Ver processos ativos
+2 – Mostra os files systems da máquina
+3 – Mostra a quanto tempo a máquina está no ar
+4 – Usuários ativos na máquina
+5 – Versão do kernel
+6 – Lista de usuários da máquina
+7 – Sair do sistema
