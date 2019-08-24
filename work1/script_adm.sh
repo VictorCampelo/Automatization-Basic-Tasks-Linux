@@ -37,7 +37,6 @@ do
 		2) clear
 			df -T -x tmpfs -x devtmpfs | grep /dev | awk -F " " '{print $2}' |sort ;;
 		3) clear
-			touch session.txt
 			v1=`uptime|awk '{print $3}'|cut -d "," -f1|awk -F ":" '{print $2}'`
 			uptime|awk '{print $2" "$3}'| cut -d "," -f1
 	        while true
